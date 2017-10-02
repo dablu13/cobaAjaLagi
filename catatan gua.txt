@@ -23,3 +23,7 @@ git add <nama file>
 git commit -m "komentar"
 // sesudah itu tambahkan
 git push origin
+
+ada juga di pdf filenya kok
+
+git branch
