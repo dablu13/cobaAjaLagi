@@ -1,0 +1,25 @@
+GitHub
+// buat melakukan proses inisialisasi
+git init
+// melakukan cloning repository dari yg ada di web
+git clone <domain> // git clone <domain>.git
+// untuk mengambil data terbaru dari web bila ada periubahan
+git pull atau git pull origin
+// gatau fungsinya apa
+git diff
+// buat melakukan proses push pertama konfig seperti di bawah
+git config user.email "email dipake buat daftar github"
+git config user.name "username dipake buat github"
+// memriksa local repisoitory 
+git status
+// untuk melakukan push
+// ada 3 tahap, yaitu untrack -> staging -> repository local
+// uuntrack adalah keadaan dimana melakukan perubahan pada data dari komputer
+// cara ceknya menggunakan git status
+// untuk memindahakannya ke staging diperlukan 
+git add <nama file>
+// lalu cek via git status apakah file masih untrack apa belom
+// dari staging ke repository menggunakan
+git commit -m "komentar"
+// sesudah itu tambahkan
+git push origin
